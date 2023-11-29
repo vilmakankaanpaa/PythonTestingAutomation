@@ -1,5 +1,6 @@
 import mathematics
 
+
 class TestMathMethods():
 
     def test_add(self):
@@ -11,4 +12,4 @@ class TestMathMethods():
 
     def test_power(self):
         assert 256 == mathematics.power(2, 8)
-                         
+
